@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Calculator</title>
+</head>
+
+<body>
+   <h2>Enter OP1</h2>
+   <form action="CalculatorServlet" method="post">
+      <input type="number" id="num1" name="num1" required><br><br>
+      <input type="radio" id="add" name="operator" value="add">
+      <label for="add">+</label>
+      <input type="radio" id="subtract" name="operator" value="subtract">
+      <label for="subtract">-</label>
+      <input type="radio" id="multiply" name="operator" value="multiply">
+      <label for="multiply">x</label>
+      <input type="radio" id="divide" name="operator" value="divide">
+      <label for="divide">/</label><br><br>
+      <input type="number" id="num2" name="num2" required><br><br>
+      <input type="submit" value="Calculate">
+   </form>
+</body>
+
+</html>
